@@ -20,5 +20,6 @@
   </properties>
   <modules>
   	<module>builder-pattern</module>
+  	<module>static-factory-method</module>
   </modules>
 </project>

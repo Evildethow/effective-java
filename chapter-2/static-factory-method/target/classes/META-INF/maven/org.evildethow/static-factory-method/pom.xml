@@ -7,8 +7,8 @@
     <groupId>org.evildethow</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>builder-pattern</artifactId>
-  <name>builder-pattern</name>
+  <artifactId>static-factory-method</artifactId>
+  <name>static-factory-method</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
