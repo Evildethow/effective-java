@@ -7,9 +7,7 @@
     <groupId>org.evildethow</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>org.evildethow</groupId>
   <artifactId>builder-pattern</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>builder-pattern</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -19,7 +17,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
