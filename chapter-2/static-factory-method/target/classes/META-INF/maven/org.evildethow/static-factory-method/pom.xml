@@ -3,23 +3,22 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>effective-java</artifactId>
+    <artifactId>chapter-2</artifactId>
     <groupId>org.evildethow</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>chapter-2</artifactId>
-  <packaging>pom</packaging>
-  <distributionManagement>
-    <site>
-      <id>website</id>
-      <url>scp://webhost.company.com/www/website</url>
-    </site>
-  </distributionManagement>
+  <artifactId>static-factory-method</artifactId>
+  <name>static-factory-method</name>
+  <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <modules>
-  	<module>builder-pattern</module>
-  	<module>static-factory-method</module>
-  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
